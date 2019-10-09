@@ -1,22 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-
-.my-augfiguration {
-    --aug-tr: 100px;
-    --aug-bl: 57px;
-    --aug-br-width: 75px;
-    --aug-br-height: 50%;
-    --aug-border: 10px;
-    --aug-border-bg: linear-gradient(to botto...);
-    --aug-border-fallback-color: #d8aea4;
-    --aug-inset: 10px;
-    --aug-inset-bg: #fbe806;
-    background: linear-gradient(#ff604d, #b1ffff);
-    // color: #b1ffff;
-    color: black;
-    font-size: 64px;
-  }
-
-  .aug-content {
+.aug-content {
     --aug-tr: 100px;
     --aug-bl: 157px;
     --aug-br-width: 75px;
@@ -35,7 +17,7 @@
 
 
 .sticky {
-    position: fixed !important; /* gets overriden by augmented ui css */
+    // position: fixed !important; /* gets overriden by augmented ui css */
     top: 0;
     width: 100%;
     display: block;
@@ -63,7 +45,13 @@ div:hover {
     --augmented-ui: l-clip r-clip exe;
     --aug-l: 10px; --aug-r: 10px;
 }
-
+a:hover {
+    --augmented-ui: l-clip r-clip exe;
+    --aug-l: 10px; --aug-r: 10px;
+}
+a {
+    text-decoration: underline
+}
 .content {
     padding: 16px;
   }
@@ -89,11 +77,10 @@ div:hover {
     font-size: 24px;
 }
 .sticky + .content {
-    padding-top: 102px;
+    //disable sticky header which will break mobile probably
+    // padding-top: 102px;
   }
-.header_title {
-    padding-left: 40px;
-}
+
 .feature_center{
     width: 100%;
     height: auto;
