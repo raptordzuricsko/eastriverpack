@@ -1,0 +1,99 @@
+.aug-content {
+    --aug-tr: 100px;
+    --aug-bl: 157px;
+    --aug-br-width: 75px;
+    --aug-br-height: 50%;
+    --aug-border: 10px;
+    --aug-border-bg: linear-gradient(to botto...);
+    --aug-border-fallback-color: #d8aea4;
+    --aug-inset: 10px;
+    --aug-inset-bg: #fbe806;
+    /* background: linear-gradient(hsla(#ff604d,0%, 10%, .3), hsla(#b1ffff, 0%, 100%,.5)); */
+    background: linear-gradient(hsla(6 ,100%, 65%, .3), hsla(180, 100%, 85%,.3));
+    // color: #b1ffff;
+    color: black;
+    font-size: 64px;
+  }
+
+
+.sticky {
+    // position: fixed !important; /* gets overriden by augmented ui css */
+    top: 0;
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.landing_wrapper{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    font-size: 24px;
+    font-family: "Arial", "Helvetica", sans-serif;
+
+    //meh, not repeating currently
+    // background-image:url('../../assets/images/logo.jpg');
+    // background-attachment: fixed;
+    // background-size: contain;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    // background-repeat: repeat;
+}
+
+.my-spliced-augs {
+    --augmented-ui: tr-clip exe;
+    --aug-br: 25px;
+}
+div:hover {
+    --augmented-ui: l-clip r-clip exe;
+    --aug-l: 10px; --aug-r: 10px;
+}
+a:hover {
+    --augmented-ui: l-clip r-clip exe;
+    --aug-l: 10px; --aug-r: 10px;
+}
+a {
+    text-decoration: underline
+}
+.content {
+    padding: 16px;
+  }
+.feature_body{
+    width:100%;
+    text-align: center;
+    //meh just use flex
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+.feature_title{
+    width:100%;
+    text-align: center;
+    //meh just use flex
+    padding-bottom: 30px;
+}
+.feature_left {
+    flex: 1 0 440px;
+}
+.feature_right {
+    flex: 2 0;
+    padding-right: 30px;
+}
+.feature_header {
+    font-size: 45px;
+}
+.feature_text {
+    font-size: 24px;
+}
+.sticky + .content {
+    //disable sticky header which will break mobile probably
+    // padding-top: 102px;
+  }
+
+.feature_center{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+img {
+    //we want resizable images
+    max-width:100%;
+    height:auto;
+}
