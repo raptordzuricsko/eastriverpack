@@ -1,7 +1,7 @@
 .my-augfiguration {
-    --aug-tr: 100px;
-    --aug-bl: 57px;
-    --aug-br-width: 75px;
+    --aug-tr: 20px;
+    --aug-bl: 17px;
+    // --aug-br-width: 75px;
     --aug-br-height: 50%;
     --aug-border: 10px;
     --aug-border-bg: linear-gradient(to botto...);
@@ -11,7 +11,7 @@
     background: linear-gradient(#ff604d, #b1ffff);
     // color: #b1ffff;
     color: black;
-    font-size: 64px;
+    // font-size: 64px;
   }
 
   .header_wrapper{
@@ -32,6 +32,9 @@
     padding-left: 40px;
 }
 .header_button_wrapper {
-    padding-right: 105px;
+    padding-right: 45px;
     float:right;
+}
+a {
+    color: #444b4b
 }
