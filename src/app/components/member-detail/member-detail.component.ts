@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class MemberDetailComponent implements OnInit {
 
   @Input() name: string;
+  @Input() img_path: string;
   constructor() { }
 
   ngOnInit() {
