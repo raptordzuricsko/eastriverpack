@@ -2,9 +2,35 @@
     float:right;
 }
 .center_buttons{
-    // display: inline-block;
+    // padding-top:50px;
+    // padding didn't work for some reason
 }
 
+#home_button{
+    padding-left:85px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
 .header_wrapper_div{
     text-align: center;
 }
+
+.aug-content {
+    --aug-tr: 100px;
+    --aug-bl: 157px;
+    --aug-br-width: 75px;
+    --aug-br-height: 50%;
+    --aug-border: 10px;
+    --aug-border-bg: linear-gradient(to botto...);
+    --aug-border-fallback-color: #d8aea4;
+    --aug-inset: 10px;
+    --aug-inset-bg: #fbe806;
+    /* background: linear-gradient(hsla(#ff604d,0%, 10%, .3), hsla(#b1ffff, 0%, 100%,.5)); */
+    background: linear-gradient(hsla(6 ,100%, 65%, .3), hsla(180, 100%, 85%,.3));
+    // color: #b1ffff;
+    color: black;
+    font-size: 64px;
+  }
+
+
+
