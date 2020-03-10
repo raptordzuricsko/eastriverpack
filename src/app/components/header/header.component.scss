@@ -1,20 +1,3 @@
-.right_buttons {
-    float:right;
-}
-.center_buttons{
-    // padding-top:50px;
-    // padding didn't work for some reason
-}
-
-#home_button{
-    padding-left:85px;
-    padding-top:20px;
-    padding-bottom:20px;
-}
-.header_wrapper_div{
-    text-align: center;
-}
-
 .aug-content {
     --aug-tr: 100px;
     --aug-bl: 157px;
@@ -29,8 +12,18 @@
     background: linear-gradient(hsla(6 ,100%, 65%, .3), hsla(180, 100%, 85%,.3));
     // color: #b1ffff;
     color: black;
-    font-size: 64px;
+    font-size: 48px;
   }
 
 
 
+.flex_grid{
+    display:flex;
+    text-align: center;
+}
+.right{
+    text-align:right;
+}
+.col {
+    flex: 1;
+}
