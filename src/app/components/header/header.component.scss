@@ -1,40 +1,10 @@
-.my-augfiguration {
-    --aug-tr: 20px;
-    --aug-bl: 17px;
-    // --aug-br-width: 75px;
-    --aug-br-height: 50%;
-    --aug-border: 10px;
-    --aug-border-bg: linear-gradient(to botto...);
-    --aug-border-fallback-color: #d8aea4;
-    --aug-inset: 10px;
-    --aug-inset-bg: #fbe806;
-    background: linear-gradient(#ff604d, #b1ffff);
-    // color: #b1ffff;
-    color: black;
-    // font-size: 64px;
-  }
-
-  .header_wrapper{
-    margin-top: 0px !important;
-    padding-top: 0px !important;
-    font-size: 24px;
-    font-family: "Arial", "Helvetica", sans-serif;
-
-    //meh, not repeating currently
-    // background-image:url('../../assets/images/logo.jpg');
-    // background-attachment: fixed;
-    // background-size: contain;
-    background-color: #cccccc; /* Used if the image is unavailable */
-    // background-repeat: repeat;
-}
-
-.header_title {
-    padding-left: 40px;
-}
-.header_button_wrapper {
-    padding-right: 45px;
+.right_buttons {
     float:right;
 }
-a {
-    color: #444b4b
+.center_buttons{
+    // display: inline-block;
+}
+
+.header_wrapper_div{
+    text-align: center;
 }
